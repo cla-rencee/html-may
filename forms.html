@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Reg Form</title>
+</head>
+<body>
+<div class="myform">
+<h2>Registration form</h2>
+
+<form action="">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" required placeholder="Enter First Name"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" required placeholder="Enter Last name"><br><br>
+    <label for="barua">Email address:</label>
+    <input type="email" id="barua" required placeholder="Enter email address"><br><br>
+    <label for="pno">Phone number:</label>
+    <input type="text" id="pno" required placeholder="Enter Phone number"><br><br>
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob" required placeholder="Enter Date of birth"><br><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="Gender">
+    <label for="female">Female</label>
+    <input type="radio" id="Female" name="Gender">
+    <label for="other">Other</label>
+    <input type="radio" id="Other" name="Gender"><br><br>
+    <label for="course">Course Taken</label>
+    <select name="Course" id="course">
+        <option value="js">Javascript</option>
+        <option value="django">Django</option>
+        <option value="react">Reactjs</option>
+        <option value="mit">Full stack development</option>
+        <option value="python">Python</option>
+
+    </select><br><br>
+    <label for="pic">Upload picture</label>
+    <input type="file" id="pic"><br><br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" required placeholder="Enter Password"><br><br>
+    <input type="submit" value="Register">
+    
+    
+</form>
+
+</div>
+</body>
+</html>

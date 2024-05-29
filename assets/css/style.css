@@ -1,0 +1,37 @@
+.fruits{
+    border: 2px solid red;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: crimson;
+}
+.cars{
+    border: 2px solid darkblue;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    color: #f16a09;
+}
+.Fruits{
+    border: 4px solid cyan;
+    text-align: center;
+    padding: 25px;
+    margin: 30px;
+    color: rgba(139, 0, 0, 0.78);
+}
+#schools{
+    border: 3px solid rgba(166, 30, 181, 0.82);
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    color: #234204;
+
+}
+.myform{
+    border: 2px solid black;
+    text-align: left;
+    padding: 20px;
+    margin: 30px;
+    color: darkred;
+    background-color: cadetblue;
+}

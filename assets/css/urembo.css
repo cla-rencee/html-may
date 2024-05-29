@@ -1,0 +1,35 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    overflow: auto;
+
+}
+li{
+    float: left;
+}
+li a{
+    padding: 20px;
+    color: rgba(56, 8, 90, 0.75);
+    display: block;
+    text-decoration: none;
+    font-family: "Times New Roman";
+}
+h2{
+    text-align: center;
+}
+p{
+    color: darkred;
+    font-family: "Dubai Medium";
+    font-size: 17px;
+}
+th,td{
+    border: 2px solid purple;
+    padding: 20px;
+    font-family: Constantia;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
